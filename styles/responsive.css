@@ -333,7 +333,7 @@
 }
 
 /* FOR TABLET DEVICES */
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+@media screen and (min-width: 576px) and (max-width: 1440px) {
 	/* GLOBAL STYLES */
 	.btn {
 		font-size: 0.9rem;
@@ -387,7 +387,7 @@
 		background: none;
 	}
 	.banner-content-container {
-		width: 500px !important;
+		width: 600px !important;
 		height: 450px;
 		background-image: url("../images/Group\ 14.png");
 		background-repeat: no-repeat;
@@ -659,6 +659,336 @@
 	}
 	.footer-copyright {
 		font-size: 0.5rem;
+		line-height: 14px;
+	}
+	.footer .line-br {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 960px) and (max-width: 1440px) {
+	/* GLOBAL STYLES */
+	.btn {
+		font-size: 1.15rem;
+		padding: 17px 36px;
+	}
+
+	/* HEADER SECTION */
+	/* HEADER: NAV SECTION */
+	.nav {
+		flex-direction: row;
+		padding: 50px 100px;
+		box-shadow: none;
+		align-items: center;
+	}
+	.logo {
+		gap: 8px;
+	}
+	.logo-text {
+		font-size: 2.2rem;
+	}
+	.logo > img {
+		width: 65px;
+	}
+
+	.nav-links-container {
+		flex-direction: row;
+		gap: 20px;
+	}
+	.nav-links a {
+		font-size: 1rem;
+	}
+	.nav-links:last-child {
+		padding: 4px 10px;
+		border-radius: 4px;
+	}
+	.nav-links:last-child a {
+		gap: 8px;
+	}
+	.nav-links:last-child i {
+		font-size: 25px;
+	}
+	.tiktok-icon {
+		width: 20px;
+	}
+
+	/* HEADER: BANNER SECTION */
+	.banner {
+		flex-direction: column-reverse;
+		gap: 10px;
+		padding: 0px;
+		background: none;
+	}
+	.banner-content-container {
+		width: 700px !important;
+		height: 500px;
+		background-image: url("../images/Group\ 14.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.banner-content {
+		max-width: 400px;
+	}
+	.banner-content > h2 {
+		font-size: 3rem;
+		font-weight: 600;
+	}
+	.banner-content > h1 {
+		font-size: 6rem;
+		margin-bottom: 20px;
+	}
+	.banner-description > div {
+		gap: 5px;
+		margin-bottom: 10px;
+	}
+	.banner-description p {
+		font-size: 1rem;
+	}
+	.banner-description img {
+		width: 20px;
+	}
+	.banner-buttons {
+		margin-top: 30px;
+		gap: 35px;
+	}
+	.banner-img {
+		width: 135%;
+	}
+
+	/* MAIN SECTION */
+	/* MAIN: WE-ARE SECTION */
+	.we-are-container {
+		padding: 40px;
+		flex-direction: column;
+		margin: 40px 0px;
+	}
+	.we-are-img-container {
+		flex: none;
+		margin: 0 40px;
+	}
+	.we-are-content-container {
+		max-width: 540px;
+		flex: none;
+	}
+	.we-are-content {
+		align-items: center;
+		text-align: center;
+		gap: 10px;
+	}
+	.we-are-title {
+		font-size: 3.5rem;
+		margin-bottom: 9px;
+		margin-top: 15px;
+	}
+	.we-are-description {
+		font-size: 1rem;
+		line-height: 22px; /* 166.667% */
+		max-width: 550px;
+		margin-bottom: 15px;
+	}
+	.we-are-content button {
+		margin-bottom: 15px;
+	}
+	.we-are-purpose {
+		font-size: 1.3rem;
+		line-height: 30px; /* 187.5% */
+	}
+	.unleash {
+		font-size: 2rem;
+		line-height: 40px;
+	}
+
+	/* MAIN: ONLINE GAMES SECTION */
+	.online {
+		margin-bottom: 80px;
+	}
+	.online > h2 {
+		font-size: 2.5rem;
+		font-weight: 700;
+		margin-bottom: 10px;
+	}
+	.online > p {
+		font-size: 1rem;
+		line-height: 25px; /* 166.667% */
+		margin-bottom: 70px;
+	}
+	.online-item-container {
+		flex-direction: row;
+		gap: 30px;
+	}
+	.online-item {
+		gap: 10px;
+		align-items: center;
+		max-width: 240px;
+		cursor: pointer;
+	}
+	.online-item > p {
+		font-size: 0.9rem;
+		line-height: 25px; /* 166.667% */
+		margin-bottom: 20px;
+	}
+
+	/* MAIN: PLAY SECTION */
+	.play {
+		padding: 0;
+		margin: 0px 0px 100px;
+		gap: 150px;
+	}
+	.play-container {
+		flex-direction: column;
+		gap: 60px;
+	}
+	.play-content {
+		width: 550px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+	.play-content > h2 {
+		font-size: 2.5rem;
+		line-height: 50px; /* 125% */
+		margin-bottom: 15px;
+	}
+	.play-content > p {
+		font-size: 1rem;
+		font-weight: 400;
+		line-height: 20px; /* 166.667% */
+	}
+	.play-img-container {
+		max-width: 600px;
+	}
+	.play-img-float {
+		width: 210px;
+	}
+	.play-container:first-child .play-img-float {
+		position: absolute;
+		bottom: -29px;
+		left: -55px;
+	}
+	.play-container:last-child .play-img-float {
+		position: absolute;
+		bottom: -35px;
+		right: -55px;
+	}
+	.play-container:last-child .play-content {
+		text-align: center;
+	}
+	.play-container:last-child .play-content h2 {
+		max-width: 450px;
+	}
+
+	/* MAIN: CAREERS SECTION */
+	.career {
+		padding: 50px 100px;
+		margin: 0;
+		flex-direction: column;
+	}
+	.career > div {
+		max-width: 100%;
+	}
+	.career-content h2 {
+		font-size: 3rem;
+		line-height: 60px; /* 125% */
+		margin-bottom: 20px;
+	}
+	.career-content p {
+		font-size: 0.9rem;
+		line-height: 22px; /* 166.667% */
+		margin-bottom: 35px;
+	}
+	.career-options {
+		margin-bottom: 40px;
+	}
+	.career-positions,
+	.career-locations {
+		font-size: 1rem;
+		font-weight: 600;
+		line-height: 30px; /* 200% */
+	}
+	.career-img-container {
+		max-width: 400px;
+	}
+	.career-img-container img {
+		width: 110%;
+	}
+
+	/* MAIN: GAME BUTTON SECTION */
+	.game-button {
+		padding: 100px 50px;
+	}
+	.game-button-container {
+		gap: 20px;
+	}
+	.game-button-item {
+		gap: 10px;
+		padding: 5px 15px 5px 5px;
+		border-radius: 50px;
+		border: 1px solid var(--white);
+	}
+	.game-button-item > img {
+		width: 40px;
+		height: 40px;
+	}
+	.game-button-item > p {
+		font-size: 0.8rem;
+		min-width: 70px;
+	}
+	.game-button-item:hover {
+		border: 1px solid var(--pink-primary);
+	}
+	/* FOOTER SECTION */
+	.footer {
+		padding: 60px 0 40px;
+	}
+	.footer-container {
+		max-width: 600px;
+	}
+
+	.footer-links {
+		row-gap: 10px;
+		column-gap: 35px;
+		margin-bottom: 32px;
+	}
+	.footer-links li a {
+		font-size: 0.73rem;
+		font-weight: 500;
+		margin-bottom: 56px;
+	}
+
+	.footer-socials {
+		column-gap: 50px;
+		row-gap: 20px;
+		margin-bottom: 32px;
+	}
+	.footer-socials i {
+		font-size: 18px;
+		color: var(--white);
+	}
+	.footer-socials img {
+		width: 18px;
+	}
+	.footer-socials .footer-youtube {
+		width: 23px;
+	}
+
+	.footer-legal-links {
+		column-gap: 50px;
+		row-gap: 5px;
+		margin-bottom: 40px;
+	}
+	.footer-legal-links li {
+		list-style: none;
+	}
+	.footer-legal-links li a {
+		font-size: 0.67rem;
+	}
+	.footer-copyright {
+		font-size: 0.6rem;
 		line-height: 14px;
 	}
 	.footer .line-br {
