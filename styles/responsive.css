@@ -333,7 +333,7 @@
 }
 
 /* FOR TABLET DEVICES */
-@media screen and (min-width: 576px) and (max-width: 1440px) {
+@media screen and (min-width: 576px) and (max-width: 960px) {
 	/* GLOBAL STYLES */
 	.btn {
 		font-size: 0.9rem;
@@ -919,7 +919,7 @@
 
 	/* MAIN: GAME BUTTON SECTION */
 	.game-button {
-		padding: 100px 50px;
+		padding: 100px 100px;
 	}
 	.game-button-container {
 		gap: 20px;
