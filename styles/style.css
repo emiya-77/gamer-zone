@@ -304,7 +304,7 @@
 	margin-bottom: 16px;
 }
 .online-overlay > p {
-	font-size: 20px;
+	font-size: 1.25rem;
 	font-weight: 600;
 	color: var(--pink-primary);
 }
@@ -387,4 +387,67 @@
 	position: absolute;
 	bottom: -123px;
 	right: -136px;
+}
+
+/* MAIN: CAREERS SECTION STYLES */
+.career {
+	background: #ff55ae url("../images/Group\ 14.png") no-repeat;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.career > div {
+	max-width: 50%;
+}
+.career-content-container {
+	/* max-width: 680px; */
+}
+.career-content {
+	width: 100%;
+}
+.career-content h2 {
+	color: var(--white);
+	font-size: 3rem;
+	font-weight: 700;
+	line-height: 60px; /* 125% */
+}
+.career-content p {
+	color: var(--white);
+	font-size: 1.125rem;
+	font-weight: 400;
+	line-height: 30px; /* 166.667% */
+	margin-bottom: 32px;
+}
+.career-options {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 40px;
+}
+.career-options > div {
+	width: 50%;
+}
+.career-positions {
+	color: var(--white);
+	font-size: 1.25rem;
+	font-weight: 600;
+	line-height: 40px; /* 200% */
+}
+.career-locations {
+	color: var(--white);
+	text-align: right;
+	font-size: 1.25rem;
+	font-weight: 600;
+	line-height: 40px; /* 200% */
+}
+.career-img-container {
+	/* max-width: 600px; */
+}
+.career-img-container img {
+	width: 160%;
+}
+.career-content > button {
+	color: var(--pink-primary);
 }
