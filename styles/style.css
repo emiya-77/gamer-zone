@@ -6,14 +6,32 @@
 	font-family: "Work Sans", sans-serif;
 }
 :root {
+	--white: #fff;
 	--pink-primary: #ff42a5;
 	--dark-primary: #0b0223;
 	--dark-secondary: #3c354f;
 	--grey-primary: rgba(11, 2, 35, 0.1);
+	--grey-secondary: #534c64;
 	--red-primary: rgba(246, 28, 13, 1);
+	--blue-primary: #4ec5f7;
 }
 .side-pad-240 {
 	padding: 0px 240px;
+}
+.btn {
+	color: var(--white);
+	font-size: 1.25rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-radius: 48px;
+	padding: 21px 40px;
+	border: none;
+}
+.pink-back {
+	background: var(--pink-primary);
+}
+.blue-back {
+	background: var(--blue-primary);
 }
 
 /* HEADER SECTION STYLES */
@@ -35,7 +53,7 @@
 }
 .logo-text {
 	color: var(--dark-primary);
-	font-size: 45px;
+	font-size: 2.8125rem;
 	font-weight: 700;
 }
 .logo-text-g {
@@ -54,7 +72,7 @@
 .nav-links a {
 	text-decoration: none;
 	color: var(--dark-secondary);
-	font-size: 18px;
+	font-size: 1.125rem;
 	font-weight: 500;
 }
 .nav-links:last-child {
@@ -80,4 +98,55 @@
 }
 .tiktok-icon img {
 	width: 100%;
+}
+
+/* HEADER: BANNER SECTION STYLES */
+.banner {
+	display: flex;
+	background: url("../images/Group\ 14.png") no-repeat center left;
+	padding-top: 148px;
+	padding-bottom: 148px;
+}
+.banner > div {
+	width: 50%;
+}
+.banner-content {
+	max-width: 365px;
+}
+.banner-content > h2 {
+	color: var(--dark-primary);
+	font-size: 3rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.banner-content > h1 {
+	font-family: Work Sans;
+	font-size: 5.9375rem;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-bottom: 24px;
+
+	background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+}
+.banner-description > div {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 17px;
+}
+.banner-description p {
+	color: var(--grey-secondary);
+	font-size: 1.25rem;
+	font-weight: 500;
+	text-transform: lowercase;
+}
+.banner-buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
 }
