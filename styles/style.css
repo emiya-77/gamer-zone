@@ -295,7 +295,7 @@
 	position: absolute;
 	top: 0;
 	bottom: 0;
-	transition: opacity 0.4s ease;
+	transition: opacity 0.5s ease;
 }
 .online-overlay > i {
 	background: transparent;
@@ -314,4 +314,77 @@
 	font-size: 20px;
 	font-weight: 500;
 	line-height: 30px; /* 150% */
+}
+
+/* MAIN: PLAY INSTANTLY/GAMES SECTION STYLES */
+.play {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 196px;
+	margin: 120px 0px 243px;
+}
+.play-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 120px;
+}
+.play-container:last-child {
+	flex-direction: row-reverse;
+}
+.play-content-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 600px;
+}
+.play-content {
+	width: 355px;
+	text-align: right;
+}
+.play-container:last-child .play-content {
+	text-align: left;
+}
+
+.play-content > h2 {
+	font-size: 3rem;
+	font-weight: 700;
+	line-height: 60px; /* 125% */
+	margin-bottom: 24px;
+}
+.play-content > p {
+	color: var(--grey-secondary);
+	font-size: 1.125rem;
+	font-weight: 400;
+	line-height: 30px; /* 166.667% */
+}
+
+.play-img-container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 700px;
+}
+.play-img-main {
+	width: 100%;
+	overflow: hidden;
+}
+.play-img-main img {
+	width: 100%;
+}
+.play-container:first-child .play-img-float {
+	position: absolute;
+	bottom: -76px;
+	left: -146px;
+}
+.play-container:last-child .play-img-float {
+	position: absolute;
+	bottom: -123px;
+	right: -136px;
 }
