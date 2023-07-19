@@ -19,6 +19,21 @@
 .side-pad-240 {
 	padding: 0px 240px;
 }
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	cursor: pointer;
+}
+.logo-text {
+	color: var(--dark-primary);
+	font-size: 2.8125rem;
+	font-weight: 700;
+}
+.logo-text-g {
+	color: var(--pink-primary);
+}
 .btn {
 	color: var(--white);
 	font-size: 1.25rem;
@@ -53,21 +68,6 @@
 	padding-bottom: 37px;
 	background: #fff;
 	box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-}
-.nav-logo {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 20px;
-	cursor: pointer;
-}
-.logo-text {
-	color: var(--dark-primary);
-	font-size: 2.8125rem;
-	font-weight: 700;
-}
-.logo-text-g {
-	color: var(--pink-primary);
 }
 
 .nav-links-container {
@@ -450,4 +450,97 @@
 }
 .career-content > button {
 	color: var(--pink-primary);
+}
+
+/* MAIN: GAME BUTTON SECTION STYLES */
+.game-button {
+	background: rgb(255, 249, 252);
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+.game-button-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 28px;
+}
+.game-button-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	padding: 10px 20px 10px 10px;
+	background: var(--white);
+	border-radius: 50px;
+	cursor: pointer;
+}
+.game-button-item > img {
+	width: 60px;
+	height: 60px;
+}
+.game-button-item > p {
+	color: var(--dark-primary);
+	font-size: 20px;
+	font-weight: 600;
+	min-width: 137px;
+}
+
+/* FOOTER SECTION STYLES */
+.footer {
+	background: var(--dark-primary);
+	padding: 120px;
+}
+.footer-container {
+	margin: 0 auto;
+	max-width: 800px;
+	background: red;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.footer-logo {
+	margin-bottom: 60px;
+}
+.footer-logo > h2 {
+	color: var(--white);
+}
+
+.footer-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 60px;
+	margin-bottom: 56px;
+}
+.footer-links li {
+	list-style: none;
+}
+.footer-links li a {
+	text-decoration: none;
+	color: var(--white);
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 56px;
+}
+
+.footer-socials {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 40px;
+	margin-bottom: 64px;
+}
+.footer-socials i {
+	font-size: 40px;
+	color: var(--white);
+}
+.footer-socials > img {
+	width: 40px;
+}
+.footer-socials .footer-youtube {
+	width: 55px;
 }
