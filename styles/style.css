@@ -470,20 +470,31 @@
 	justify-content: center;
 	align-items: center;
 	gap: 16px;
-	padding: 10px 20px 10px 10px;
+	padding: 8px 18px 8px 8px;
 	background: var(--white);
 	border-radius: 50px;
 	cursor: pointer;
+	border: 2px solid var(--white);
+	transition: all 0.4s ease;
 }
+.game-button-item:hover {
+	color: var(--pink-primary);
+	border: 2px solid var(--pink-primary);
+}
+.game-button-item:hover > p {
+	color: var(--pink-primary);
+}
+
 .game-button-item > img {
 	width: 60px;
 	height: 60px;
 }
 .game-button-item > p {
 	color: var(--dark-primary);
-	font-size: 20px;
+	font-size: 19px;
 	font-weight: 600;
 	min-width: 137px;
+	transition: all 0.4s ease;
 }
 
 /* FOOTER SECTION STYLES */
