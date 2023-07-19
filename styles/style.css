@@ -477,7 +477,6 @@
 	transition: all 0.4s ease;
 }
 .game-button-item:hover {
-	color: var(--pink-primary);
 	border: 2px solid var(--pink-primary);
 }
 .game-button-item:hover > p {

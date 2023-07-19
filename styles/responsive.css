@@ -214,4 +214,67 @@
 	.play-container:last-child .play-content h2 {
 		max-width: 170px;
 	}
+
+	/* MAIN: CAREERS SECTION */
+	.career {
+		padding: 50px;
+		margin: 0;
+		flex-direction: column;
+	}
+	.career > div {
+		max-width: 100%;
+	}
+	.career-content h2 {
+		font-size: 1.1rem;
+		line-height: 60px; /* 125% */
+	}
+	.career-content p {
+		font-size: 0.45rem;
+		line-height: 14px; /* 166.667% */
+		margin-bottom: 25px;
+	}
+	.career-options {
+		margin-bottom: 25px;
+	}
+	.career-positions {
+		font-size: 0.5rem;
+		font-weight: 600;
+		line-height: 16px; /* 200% */
+	}
+	.career-locations {
+		font-size: 0.5rem;
+		font-weight: 600;
+		line-height: 16px; /* 200% */
+	}
+	.career-img-container {
+		max-width: 400px;
+	}
+	.career-img-container img {
+		width: 100%;
+	}
+
+	/* MAIN: GAME BUTTON SECTION */
+	.game-button {
+		padding: 80px 25px;
+	}
+	.game-button-container {
+		gap: 20px;
+	}
+	.game-button-item {
+		gap: 5px;
+		padding: 2px 6px 2px 2px;
+		border-radius: 50px;
+		border: 1px solid var(--white);
+	}
+	.game-button-item > img {
+		width: 22px;
+		height: 22px;
+	}
+	.game-button-item > p {
+		font-size: 7px;
+		min-width: 70px;
+	}
+	.game-button-item:hover {
+		border: 1px solid var(--pink-primary);
+	}
 }
