@@ -550,6 +550,11 @@
 	gap: 40px;
 	margin-bottom: 64px;
 }
+.footer-socials div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .footer-socials i {
 	font-size: 40px;
 	color: var(--white);
