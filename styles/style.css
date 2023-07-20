@@ -235,7 +235,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin: 120px 0;
+	margin: 120px 40px;
 }
 .online > h2 {
 	color: var(--dark-primary);
@@ -330,7 +330,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 	gap: 120px;
 }
 .play-container:last-child {
@@ -379,11 +379,13 @@
 	width: 100%;
 }
 .play-container:first-child .play-img-float {
+	width: 50%;
 	position: absolute;
 	bottom: -76px;
 	left: -146px;
 }
 .play-container:last-child .play-img-float {
+	width: 50%;
 	position: absolute;
 	bottom: -123px;
 	right: -136px;
@@ -396,6 +398,8 @@
 	justify-content: flex-start;
 	align-items: center;
 	flex-wrap: wrap;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 .career > div {
 	max-width: 50%;
@@ -443,10 +447,12 @@
 	line-height: 40px; /* 200% */
 }
 .career-img-container {
-	/* max-width: 600px; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .career-img-container img {
-	width: 160%;
+	width: 100%;
 }
 .career-content > button {
 	color: var(--pink-primary);
