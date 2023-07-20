@@ -415,6 +415,7 @@
 	font-size: 3rem;
 	font-weight: 700;
 	line-height: 60px; /* 125% */
+	margin-bottom: 15px;
 }
 .career-content p {
 	color: var(--white);
